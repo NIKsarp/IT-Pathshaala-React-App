@@ -54,5 +54,12 @@ p {
   background-color: #0c309f60;
 }
 
+@media (max-width: 600px) {
+  * {
+    cursor: text;
+  }
+}
+
+
 /* HTML body End */
 /* -------------------------------------------- */

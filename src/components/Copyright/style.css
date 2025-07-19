@@ -1,0 +1,14 @@
+/* -------------------------------------------- */
+/* Copyright Start */
+
+.copyright {
+  bottom: 0;
+  padding: 7px;
+  font-weight: bold;
+  text-align: center;
+  font-size: clamp(var(--gap), 5vw, 1.2rem);
+  background-color: rgb(179, 179, 245);
+}
+
+/* Copyright End */
+/* -------------------------------------------- */

@@ -1,14 +1,36 @@
 /* -------------------------------------------- */
-/* Copyright Start */
+/* Footer Start */
 
-.copyright {
-  bottom: 0;
-  padding: 7px;
-  font-weight: bold;
-  text-align: center;
-  font-size: clamp(var(--gap), 5vw, 1.2rem);
-  background-color: rgb(179, 179, 245);
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+  padding: var(--gap);
+  justify-content: space-evenly;
 }
 
-/* Copyright End */
+.footer .footer-list {
+  width: clamp(12rem, 5vw, 18rem);
+}
+
+@media only screen and (max-width: 625px) {
+  .footer .footer-list {
+    flex-grow: 1;
+  }
+}
+
+.footer .footer-item {
+  padding: var(--gap);
+}
+
+.footer .footer-link {
+  color: #383737;
+}
+
+.footer .footer-link:hover {
+  text-decoration: underline;
+  color: #121212;
+}
+
+/* Footer End */
 /* -------------------------------------------- */

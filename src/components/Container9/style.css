@@ -1,0 +1,46 @@
+/* -------------------------------------------- */
+/* Container-9 Start */
+
+.container-9 {
+  display: flex;
+  padding: var(--gap);
+  gap: var(--gap);
+  flex-direction: column;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.container-9 .title {
+  font-size: clamp(1.2rem, 10vw, 3rem);
+}
+
+.container-9 .content {
+  display: flex;
+  gap: var(--gap);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-9 .content .figure .figure-img {
+  background-color: #444444;
+  width: clamp(10rem, 5vw, 20rem);
+  min-height: 10rem;
+  animation: slide 0.1s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(-50rem);
+  }
+
+  to {
+    transform: translateX(0);
+    scale: 1;
+  }
+}
+
+/* Container-9 End */
+/* -------------------------------------------- */
