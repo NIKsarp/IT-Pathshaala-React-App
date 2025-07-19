@@ -1,3 +1,4 @@
+import logo from "../../assets/IT Pathshaala.png";
 import "./style.css";
 
 const Header = () => {
@@ -7,7 +8,8 @@ const Header = () => {
         <figure className="figure navbar-brand">
           <img
             className="figure-img"
-            src="src/body/it-pathshaala-digital-marketing-course-in-bareilly.png"
+            src={logo}
+            // src="/it-pathshaala-digital-marketing-course-in-bareilly.png"
             alt="it pathshaala logo"
           />
         </figure>
