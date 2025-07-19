@@ -1,0 +1,33 @@
+/* -------------------------------------------- */
+/* Container-1 Start */
+
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  color: #fffffe;
+  position: relative;
+  text-align: center;
+  padding: 1rem;
+  letter-spacing: 3px;
+  max-width: 100%;
+  background-color: #12121280;
+  font-size: clamp(1rem, 2vw, 3rem);
+  align-items: center;
+}
+
+.container-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("src/body/laptop-desk-computer-work-man-working-644378-pxhere.com.jpg") no-repeat center center/cover;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+/* Container-1 End */
+/* -------------------------------------------- */
