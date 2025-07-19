@@ -1,8 +1,7 @@
 /* -------------------------------------------- */
 /* Container-3 Start */
 
-.container-3,
-.image-container {
+:is(.container-3, .image-container) {
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -10,14 +9,14 @@
   text-align: center;
 }
 
-.figure {
+:is(.container-3, .image-container) .figure {
   position: relative;
   animation: slide 0.1s linear;
   animation-timeline: view();
   animation-range: entry 0% cover 50%;
 }
 
-.figure-img {
+:is(.container-3, .image-container) .figure-img {
   border-radius: 1rem;
   width: clamp(18rem, 10vw, 20rem);
   min-height: 14rem;
@@ -26,7 +25,7 @@
   position: relative;
 }
 
-.figure-caption {
+:is(.container-3, .image-container) .figure-caption {
   color: var(--black);
   font-weight: bold;
   font-size: clamp(1rem, 2vw, 1.5rem);
@@ -34,11 +33,11 @@
   transition: all 0.2s ease;
 }
 
-.figure-img:hover {
+:is(.container-3, .image-container) .figure-img:hover {
   opacity: 0.2;
 }
 
-.figure:hover .figure-caption {
+:is(.container-3, .image-container) .figure:hover .figure-caption {
   opacity: 1;
 }
 
