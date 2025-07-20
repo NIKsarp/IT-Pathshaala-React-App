@@ -1,11 +1,8 @@
-export const Figure = ({ href, src, text }) => {
+const Figure = ({ href, src, text }) => {
   return (
     <>
       <figure className="figure">
-        <a
-          className="anchor"
-          href={`https://${href}/`}
-        >
+        <a className="anchor" href={`https://${href}/`}>
           <img
             className="figure-img"
             src={`images/${src}`}
@@ -18,3 +15,5 @@ export const Figure = ({ href, src, text }) => {
     </>
   );
 };
+
+export default Figure;
