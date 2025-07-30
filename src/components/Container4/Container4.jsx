@@ -1,12 +1,13 @@
 import "./style.css";
 
-const Container4 = () => {
+export const Container4 = () => {
   return (
     <section className="container-4">
       <div className="left-box">
         <h2 className="title">GLOBAL CERTIFICATE</h2>
         <p className="text">
-          IT Pathshaala is the <strong>Best Training Institute in Bareilly</strong> for
+          IT Pathshaala is the{" "}
+          <strong>Best Training Institute in Bareilly</strong> for
           <strong> Java, Python, Data Science, </strong> AI, IoT, PHP, MySQL,
           Web, Android, Development Course. Learn Graphic Design, Digital
           Marketing Course in Bareilly.
@@ -28,5 +29,3 @@ const Container4 = () => {
     </section>
   );
 };
-
-export default Container4;

@@ -1,4 +1,4 @@
-import Figure from "./Figure";
+import { Figure } from "./Figure";
 import "./style.css";
 
 const figures = [
@@ -24,7 +24,7 @@ const figures = [
   },
 ];
 
-const Container3 = () => {
+export const Container3 = () => {
   return (
     <section className="container-3">
       {figures.map((figure) => (
@@ -33,5 +33,3 @@ const Container3 = () => {
     </section>
   );
 };
-
-export default Container3;

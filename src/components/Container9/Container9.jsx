@@ -1,6 +1,6 @@
 import "./style.css";
 
-const GalleryImage = ({ src }) => {
+export const GalleryImage = ({ src }) => {
   return (
     <figure className="figure">
       <img
@@ -23,7 +23,7 @@ const images = [
   { src: "c669700e-72f7-44bf-b834-4fe1ca1607e8-300x225.jpg" },
 ];
 
-const Container9 = () => {
+export const Container9 = () => {
   return (
     <section className="container-9">
       <h2 className="title">gallery</h2>
@@ -35,5 +35,3 @@ const Container9 = () => {
     </section>
   );
 };
-
-export default Container9;

@@ -1,4 +1,4 @@
-const Figure = ({ href, src, text }) => {
+export const Figure = ({ href, src, text }) => {
   return (
     <>
       <figure className="figure">
@@ -15,5 +15,3 @@ const Figure = ({ href, src, text }) => {
     </>
   );
 };
-
-export default Figure;

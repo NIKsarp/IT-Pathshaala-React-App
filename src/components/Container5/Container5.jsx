@@ -1,7 +1,7 @@
-import Figure from "../Container3/Figure";
+import { Figure } from "../Container3/Figure";
 import "./style.css";
 
-const figures = [
+export const figures = [
   {
     href: "cadtabs.com/product-category/cadd-course",
     src: "image-container-2/pexels-grovebrands-15764116.jpg",
@@ -24,7 +24,7 @@ const figures = [
   },
 ];
 
-const Container5 = () => {
+export const Container5 = () => {
   return (
     <section className="container-5">
       <h2 className="title">
@@ -39,5 +39,3 @@ const Container5 = () => {
     </section>
   );
 };
-
-export default Container5;

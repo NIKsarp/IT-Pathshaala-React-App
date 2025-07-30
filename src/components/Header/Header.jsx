@@ -1,7 +1,7 @@
 import logo from "../../assets/IT Pathshaala.png";
 import "./style.css";
 
-const Header = () => {
+export const Header = () => {
   return (
     <>
       <header className="header">
@@ -73,5 +73,3 @@ const Header = () => {
     </>
   );
 };
-
-export default Header;

@@ -1,6 +1,6 @@
 import "./style.css";
 
-const Container7 = () => {
+export const Container7 = () => {
   return (
     <div className="container-7">
       <p className="text">
@@ -9,7 +9,8 @@ const Container7 = () => {
       </p>
       <h2 className="title">Training | Placements | Live Projects</h2>
       <p className="text">
-        IT Pathshaala is the <strong>Best Training Institute in Bareilly</strong> for
+        IT Pathshaala is the{" "}
+        <strong>Best Training Institute in Bareilly</strong> for
         <strong> Java, Python, Data Science, </strong> AI, IoT, PHP, MySQL,
         <strong>Website Design</strong> & Development,
         <strong>Android, Development Course</strong>. Learn Graphic Design,
@@ -18,5 +19,3 @@ const Container7 = () => {
     </div>
   );
 };
-
-export default Container7;

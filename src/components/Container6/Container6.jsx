@@ -1,6 +1,6 @@
 import "./style.css";
 
-const Container6 = () => {
+export const Container6 = () => {
   return (
     <section className="container-6">
       <span>6718 students success story</span>
@@ -9,5 +9,3 @@ const Container6 = () => {
     </section>
   );
 };
-
-export default Container6;

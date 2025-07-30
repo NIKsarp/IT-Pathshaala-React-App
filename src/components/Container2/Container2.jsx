@@ -1,6 +1,6 @@
 import "./style.css";
 
-export const Element = ({ title }) => {
+const Element = ({ title }) => {
   return (
     <>
       <div className="container-item">{title}</div>
@@ -19,4 +19,3 @@ export const Container2 = () => {
     </>
   );
 };
-

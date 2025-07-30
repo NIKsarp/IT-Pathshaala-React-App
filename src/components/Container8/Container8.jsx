@@ -1,6 +1,6 @@
 import "./style.css";
 
-const ProjectItem = ({ href, text }) => {
+export const ProjectItem = ({ href, text }) => {
   return (
     <>
       <li className="item">
@@ -46,7 +46,7 @@ const items = [
   },
 ];
 
-const Container8 = () => {
+export const Container8 = () => {
   return (
     <section className="container-8">
       <h3 className="title">students projects</h3>
@@ -58,5 +58,3 @@ const Container8 = () => {
     </section>
   );
 };
-
-export default Container8;

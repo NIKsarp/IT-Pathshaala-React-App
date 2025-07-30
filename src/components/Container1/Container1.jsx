@@ -1,6 +1,6 @@
-import "./style.css"
+import "./style.css";
 
-const Container1 = () => {
+export const Container1 = () => {
   return (
     <>
       <section className="container-1">
@@ -8,12 +8,13 @@ const Container1 = () => {
         <h1 className="title">Full Stack Web Development</h1>
         <span>Google | Microsoft | Adobe | Autodesk | Apple</span>
         <span>Testing Centre</span>
-        <a className="official-button" href="https://forms.gle/ZeWJQM8S3bqKkd3o7">
+        <a
+          className="official-button"
+          href="https://forms.gle/ZeWJQM8S3bqKkd3o7"
+        >
           Book Demo Class
         </a>
       </section>
     </>
   );
 };
-
-export default Container1;
