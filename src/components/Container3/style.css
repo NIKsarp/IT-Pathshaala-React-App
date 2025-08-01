@@ -1,35 +1,17 @@
 /* -------------------------------------------- */
 /* Container-3 Start */
 
-:is(.container-3, .image-container) {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-align: center;
-}
-
 :is(.container-3, .image-container) .figure {
-  position: relative;
   animation: slide 0.1s linear;
   animation-timeline: view();
   animation-range: entry 0% cover 50%;
 }
 
 :is(.container-3, .image-container) .figure-img {
-  border-radius: 1rem;
-  width: clamp(18rem, 10vw, 20rem);
-  min-height: 14rem;
   opacity: 0.8;
-  transition: var(--transition);
-  position: relative;
 }
 
 :is(.container-3, .image-container) .figure-caption {
-  color: var(--black);
-  font-weight: bold;
-  font-size: clamp(1rem, 2vw, 1.5rem);
-  opacity: 0;
   transition: all 0.2s ease;
 }
 

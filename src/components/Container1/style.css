@@ -1,22 +1,6 @@
 /* -------------------------------------------- */
 /* Container-1 Start */
 
-.container-1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: auto;
-  color: #fffffe;
-  position: relative;
-  text-align: center;
-  padding: 1rem;
-  letter-spacing: 3px;
-  max-width: 100%;
-  background-color: #12121280;
-  font-size: clamp(1rem, 2vw, 3rem);
-  align-items: center;
-}
-
 .container-1::before {
   content: "";
   position: absolute;

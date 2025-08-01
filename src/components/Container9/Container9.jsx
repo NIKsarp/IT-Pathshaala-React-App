@@ -2,9 +2,9 @@ import "./style.css";
 
 export const GalleryImage = ({ src }) => {
   return (
-    <figure className="figure">
+    <figure className="figure bg-[#444444] w-[clamp(10rem,5vw,20rem)] min-h-40">
       <img
-        className="figure-img"
+        className="figure-img bg-[#444444] w-[clamp(10rem,5vw,20rem)] min-h-40 "
         src={`https://itpathshaala.in/wp-content/uploads/2023/02/${src}`}
         alt="it pathshaala students"
         title="it pathshaala students"
@@ -25,9 +25,12 @@ const images = [
 
 export const Container9 = () => {
   return (
-    <section className="container-9">
-      <h2 className="title">gallery</h2>
-      <div className="content" id="contaiener-9">
+    <section className="container-9 flex p-[var(--gap)] gap-[var(--gap)] flex-col capitalize text-center">
+      <h2 className="title text-[clamp(1.2rem,10vw,3rem)]">gallery</h2>
+      <div
+        className="content flex gap-[var(--gap)] flex-wrap items-center justify-center"
+        id="contaiener-9"
+      >
         {images.map((image) => (
           <GalleryImage src={image.src} />
         ))}

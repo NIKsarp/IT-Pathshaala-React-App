@@ -1,5 +1,5 @@
 import { Figure } from "./Figure";
-import "./style.css";
+// import "./style.css";
 
 const figures = [
   {
@@ -26,7 +26,7 @@ const figures = [
 
 export const Container3 = () => {
   return (
-    <section className="container-3">
+    <section className="container-3 flex gap-4 justify-center flex-wrap text-center">
       {figures.map((figure) => (
         <Figure href={figure.href} src={figure.src} text={figure.text} />
       ))}

@@ -1,5 +1,4 @@
 import { Figure } from "../Container3/Figure";
-import "./style.css";
 
 export const figures = [
   {
@@ -26,12 +25,12 @@ export const figures = [
 
 export const Container5 = () => {
   return (
-    <section className="container-5">
-      <h2 className="title">
+    <section className="container-5 flex gap-[var(--gap)] text-center flex-col">
+      <h2 className="title text-[clamp(1rem,5vw,2rem)]">
         Course Offered by CADTABS (Autodesk Learning Partner)
       </h2>
 
-      <div className="image-container" id="container-5">
+      <div className="image-container flex gap-4 justify-center flex-wrap text-center" id="container-5">
         {figures.map((figure) => (
           <Figure href={figure.href} src={figure.src} text={figure.text} />
         ))}

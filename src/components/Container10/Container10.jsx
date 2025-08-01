@@ -1,18 +1,18 @@
-import "./style.css";
-
 export const Container10 = () => {
   return (
     <>
       {/* -------------------------------------------- */}
       {/* Container-10 Start */}
 
-      <div className="container-10">
+      <div className="container-10 flex flex-col p-[var(--gap)] gap-[var(--gap)]">
         <h2>Learn Coding from beginner level to advance level</h2>
         <div className="content-box">
           {/* Details-Box: 1 */}
-          <details>
-            <summary>JAVA LANGUAGE</summary>
-            <h2 className="title">
+          <details className="  text-[#f8f9fa] p-[var(--gap)] border border-solid border-[#ced4da] rounded-[5px]">
+            <summary className="bg-[#343a40] text-[#fffffe] p-[var(--gap)] rounded-[5px] cursor-pointer">
+              JAVA LANGUAGE
+            </summary>
+            <h2 className="title text-[var(--theme)] font-['Bree_serif'] text-[clamp(1.2rem,5vw,2rem)]">
               Best Java Training Institute in Bareilly, Java Course in Bareilly
             </h2>
             <p>
@@ -67,9 +67,11 @@ export const Container10 = () => {
           </details>
 
           {/* Details-Box: 2 */}
-          <details>
-            <summary>PYTHON LANGUAGE</summary>
-            <h2 className="title">
+          <details className="text-[#f8f9fa] p-[var(--gap)] border border-solid border-[#ced4da] rounded-[5px]">
+            <summary className="bg-[#343a40] text-[#fffffe] p-[var(--gap)] rounded-[5px] cursor-pointer">
+              PYTHON LANGUAGE
+            </summary>
+            <h2 className="title text-[var(--theme)] font-['Bree_serif'] text-[clamp(1.2rem,5vw,2rem)]">
               BEST PYTHON TRAINING IN BAREILLY, PYTHON COURSE IN BAREILLY
             </h2>
             <p>
@@ -104,9 +106,11 @@ export const Container10 = () => {
           </details>
 
           {/* Details-Box: 3 */}
-          <details>
-            <summary>C LANGUAGE</summary>
-            <h2 className="title">
+          <details className="text-[#f8f9fa] p-[var(--gap)] border border-solid border-[#ced4da] rounded-[5px]">
+            <summary className="bg-[#343a40] text-[#fffffe] p-[var(--gap)] rounded-[5px] cursor-pointer">
+              C LANGUAGE
+            </summary>
+            <h2 className="title text-[var(--theme)] font-['Bree_serif'] text-[clamp(1.2rem,5vw,2rem)]">
               Join Best C C++ Training in Bareilly, C C++ Course in Bareilly, C
               C++ Institute in Bareilly
             </h2>
