@@ -2,7 +2,7 @@ import "./style.css";
 
 export const GalleryImage = ({ src }) => {
   return (
-    <figure className="figure bg-[#444444] w-[clamp(10rem,5vw,20rem)] min-h-40">
+    <figure className="figure w-[clamp(10rem,5vw,20rem)] min-h-40">
       <img
         className="figure-img bg-[#444444] w-[clamp(10rem,5vw,20rem)] min-h-40 "
         src={`https://itpathshaala.in/wp-content/uploads/2023/02/${src}`}
@@ -31,8 +31,8 @@ export const Container9 = () => {
         className="content flex gap-[var(--gap)] flex-wrap items-center justify-center"
         id="contaiener-9"
       >
-        {images.map((image) => (
-          <GalleryImage src={image.src} />
+        {images.map((image, index) => (
+          <GalleryImage key={index} src={image.src} />
         ))}
       </div>
     </section>

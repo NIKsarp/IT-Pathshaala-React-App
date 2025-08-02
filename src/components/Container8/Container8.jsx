@@ -54,8 +54,8 @@ export const Container8 = () => {
         className="project flex my-8 items-center justify-center gap-[var(--gap)] flex-wrap"
         id="container-8"
       >
-        {items.map((item) => (
-          <ProjectItem href={item.href} text={item.text} />
+        {items.map((item, index) => (
+          <ProjectItem key={index} href={item.href} text={item.text} />
         ))}
       </ul>
     </section>

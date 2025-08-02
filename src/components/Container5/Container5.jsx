@@ -30,9 +30,17 @@ export const Container5 = () => {
         Course Offered by CADTABS (Autodesk Learning Partner)
       </h2>
 
-      <div className="image-container flex gap-4 justify-center flex-wrap text-center" id="container-5">
-        {figures.map((figure) => (
-          <Figure href={figure.href} src={figure.src} text={figure.text} />
+      <div
+        className="image-container flex gap-4 justify-center flex-wrap text-center"
+        id="container-5"
+      >
+        {figures.map((figure, index) => (
+          <Figure
+            key={index}
+            href={figure.href}
+            src={figure.src}
+            text={figure.text}
+          />
         ))}
       </div>
     </section>

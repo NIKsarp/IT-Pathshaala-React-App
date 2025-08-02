@@ -7,21 +7,5 @@
   animation-range: entry 0% cover 50%;
 }
 
-:is(.container-3, .image-container) .figure-img {
-  opacity: 0.8;
-}
-
-:is(.container-3, .image-container) .figure-caption {
-  transition: all 0.2s ease;
-}
-
-:is(.container-3, .image-container) .figure-img:hover {
-  opacity: 0.2;
-}
-
-:is(.container-3, .image-container) .figure:hover .figure-caption {
-  opacity: 1;
-}
-
 /* Container-3 End */
 /* -------------------------------------------- */
